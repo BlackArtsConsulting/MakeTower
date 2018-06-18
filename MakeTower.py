@@ -9,7 +9,7 @@ anthony@blackarts.co
 """
 
 from hypar import glTF
-from random import randint
+from random import randint, uniform
 
 from aecSpace.aecColor import aecColor
 from aecSpace.aecShaper import aecShaper

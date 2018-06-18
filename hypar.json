@@ -40,10 +40,10 @@
   },
   "returns": {
     "floors": {
-      "description": "The number of floors."
+      "description": "Number of floors."
     },
     "area": {
-      "description": "The total building area."
+      "description": "Total building area."
     }
   }
 }
