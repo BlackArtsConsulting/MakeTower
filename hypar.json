@@ -1,0 +1,49 @@
+{
+  "function": "MakeTower.makeTower",
+  "runtime": "python3.6",
+  "parameters":{
+    "bldgWidth": {
+      "description": "Building width.",
+      "max": 100,
+      "min": 20,
+      "step": 10,
+      "type": "number"    
+    },
+    "bldgDepth": {
+      "description": "Building Depth.",
+      "max": 100,
+      "min": 20,
+      "step": 10,
+      "type": "number"    
+    },
+    "floorHeight": {
+      "description": "Building floor height.",
+      "max": 6,
+      "min": 4,
+      "step": 1,
+      "type": "number"    
+    },    
+    "bldgLevels: {
+      "description": "Building levels.",
+      "max": 60,
+      "min": 10,
+      "step": 5,
+      "type": "number"    
+    },
+    "plinthScale": {
+      "description": "Target building area.",
+      "max": 2.5,
+      "min": 1,
+      "step": 0.5,
+      "type": "number"    
+    }    
+  },
+  "returns": {
+    "floors": {
+      "description": "The number of floors."
+    },
+    "area": {
+      "description": "The total building area."
+    }
+  }
+}
