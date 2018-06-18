@@ -23,7 +23,7 @@
       "step": 1,
       "type": "number"    
     },    
-    "bldgLevels: {
+    "bldgLevels": {
       "description": "Building levels.",
       "max": 60,
       "min": 10,
