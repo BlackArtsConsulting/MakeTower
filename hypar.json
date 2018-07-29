@@ -1,36 +1,45 @@
 {
+  "respository_url": "https://github.com/BlackArtsConsulting/MakeTower",
   "function": "MakeTower.makeTower",
+  "name": "Make Tower",  
+  "description": "Make a tower with distributed spaces.",
   "runtime": "python3.6",
-  "parameters":{
-    "bldgWidth": {
+  "parameters":
+  {
+    "bldgWidth": 
+    {
       "description": "Building width.",
       "max": 100,
       "min": 20,
       "step": 10,
       "type": "number"    
     },
-    "bldgDepth": {
+    "bldgDepth": 
+    {
       "description": "Building Depth.",
       "max": 100,
       "min": 20,
       "step": 10,
       "type": "number"    
     },
-    "floorHeight": {
+    "floorHeight": 
+    {
       "description": "Building floor height.",
       "max": 6,
       "min": 4,
       "step": 1,
       "type": "number"    
     },    
-    "bldgLevels": {
+    "bldgLevels": 
+    {
       "description": "Building levels.",
       "max": 60,
       "min": 10,
       "step": 5,
       "type": "number"    
     },
-    "plinthScale": {
+    "plinthScale": 
+    {
       "description": "Target building area.",
       "max": 2.5,
       "min": 1,
@@ -38,11 +47,14 @@
       "type": "number"    
     }    
   },
-  "returns": {
-    "floors": {
+  "returns": 
+  {
+    "floors": 
+    {
       "description": "Number of floors."
     },
-    "area": {
+    "area": 
+    {
       "description": "Total building area."
     }
   }

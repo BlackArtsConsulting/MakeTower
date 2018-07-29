@@ -154,7 +154,7 @@ def makeTower(bldgWidth: float = 20,
         if colorIndex == 3: color = colorYellow      
         model.add_triangle_mesh(spaceMesh.vertices, spaceMesh.normals, spaceMesh.indices, color)   
     return {"model": model.save_base64(), 'computed':{'floors':levels, 'area':area}}   
-#    model.save_glb('C:\\Users\\Anthony\\Dropbox\\Business\\BlackArts\\Development\\GitHub\\MakeTower\\model.glb')
+#    model.save_glb('model.glb')
 #
 #makeTower(bldgWidth = uniform(20, 70), 
 #          bldgDepth = uniform(20, 70), 
